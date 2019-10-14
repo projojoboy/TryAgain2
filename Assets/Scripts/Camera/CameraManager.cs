@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    void Start()
+    private void Start()
     {
         Screen.SetResolution((int)Screen.width, (int)Screen.height, true);
     }
